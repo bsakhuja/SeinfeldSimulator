@@ -1,4 +1,4 @@
-import config # contains the API keys and access tokens
+# import config # contains the API keys and access tokens
 import twitter
 import os
 import time
