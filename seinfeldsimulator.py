@@ -16,10 +16,10 @@ tweetbot.read(textFile)
 # Text Generations
 
 # Log in to Twitter
-let consumer_key = os.environ.get('cons_key')
-let consumer_key_secret = os.environ.get('cons_secret')
-let access_token = os.environ.get('access_token')
-let access_token_secret = os.environ.get('access_token_secret')
+consumer_key = os.environ.get('cons_key')
+consumer_key_secret = os.environ.get('cons_secret')
+access_token = os.environ.get('access_token')
+access_token_secret = os.environ.get('access_token_secret')
 tweetbot.twitter_login(consumer_key, consumer_key_secret, access_token, access_token_secret)
 
 # Start periodically tweeting
