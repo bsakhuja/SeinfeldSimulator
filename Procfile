@@ -1,1 +1,1 @@
-web: python seinfeldsimulator.py
+worker: python seinfeldsimulator.py
